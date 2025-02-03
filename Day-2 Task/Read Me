@@ -1,0 +1,94 @@
+𝗗𝗔𝗬 𝟮: 𝗧𝗘𝗖𝗛𝗡𝗜𝗖𝗔𝗟 𝗙𝗢𝗨𝗡𝗗𝗔𝗧𝗜𝗢𝗡 𝗢𝗙 𝗙𝗨𝗥𝗡𝗜𝗧𝗨𝗥𝗘 & 𝗖𝗥𝗢𝗖𝗞𝗘𝗥𝗬 𝗠𝗔𝗥𝗞𝗘𝗧𝗣𝗟𝗔𝗖𝗘
+Overview
+On Day 2, we are setting up the technical foundation of the Furniture & Crockery Marketplace. This involves integrating essential frameworks, configuring APIs, and establishing a structured development environment. The goal is to ensure smooth scalability and a strong foundation for future enhancements.
+
+Objectives
+✅ Integrate backend frameworks and APIs for smooth data handling.
+✅ Configure environment variables for secure data management.
+✅ Establish database connectivity and define basic schemas.
+✅ Set up reusable UI components for frontend development.
+
+Progress
+Backend Setup
+Installed Next.js API routes for handling server-side logic.
+Connected the project to MongoDB/Firebase for database operations.
+Created basic schemas/models for:
+🧑‍💼 Users (Account management)
+🛋️ Products (Furniture & Crockery items)
+🛒 Orders (Order history & tracking)
+Defined RESTful API endpoints for CRUD operations.
+Environment Variables
+Configured a .env file for storing sensitive data:
+
+plaintext
+Copy
+Edit
+DATABASE_URL=<your_database_url>
+API_KEY=<your_api_key>
+Frontend Setup
+Created reusable UI components:
+
+🏠 Header/Navbar
+📜 Footer
+🎁 Product Card
+Installed essential libraries:
+
+📡 Axios/Fetch for API calls
+🎨 Tailwind CSS for styling
+Routing & Navigation
+Implemented basic navigation using Next.js Router:
+
+/ (🏠 Home)
+/products (🛋️ Product Listings)
+/cart (🛒 Shopping Cart)
+/checkout (💳 Checkout)
+Tech Stack Enhancements
+Backend:
+🖥 Framework: Next.js (API Routes)
+📦 Database: MongoDB/Firebase
+🔗 ORM/ODM: Mongoose/Prisma
+
+Frontend:
+🎨 Framework: React.js/Next.js
+✨ Styling: Tailwind CSS
+
+Installation
+To test the updated technical foundation locally:
+
+1️⃣ Clone the repository:
+
+bash
+Copy
+Edit
+git clone <your-repo-link>
+2️⃣ Navigate to the project directory:
+
+bash
+Copy
+Edit
+cd furniture-crockery-marketplace
+3️⃣ Install backend and frontend dependencies:
+
+bash
+Copy
+Edit
+npm install
+4️⃣ Run the backend server:
+
+bash
+Copy
+Edit
+npm run server
+5️⃣ Start the frontend:
+
+bash
+Copy
+Edit
+npm run dev
+Notes
+⚠ Environment variables are critical. Never hardcode sensitive information.
+✅ Test API routes using Postman or Thunder Client before full deployment.
+
+Contributing
+💡 Contributions are welcome! Fork the repository and submit a pull request for any improvements.
+
