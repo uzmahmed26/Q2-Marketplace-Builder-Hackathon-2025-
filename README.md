@@ -1,4 +1,5 @@
-**🛒 Furniture & Crockery Marketplace - E-Commerce Project**
+                                                                     **🛒 Furniture & Crockery Marketplace - E-Commerce Project**
+
 Welcome to my Furniture & Crockery E-Commerce project! 🎉 This repository showcases my journey in developing a modern, user-friendly, and feature-rich online marketplace for high-quality furniture and crockery items.
 
 **🚀 Project Overview**
