@@ -1,0 +1,50 @@
+
+𝗗𝗔𝗬 𝟭: Avion 𝗙𝗨𝗥𝗡𝗜𝗧𝗨𝗥𝗘 & 𝗖𝗥𝗢𝗖𝗞𝗘𝗥𝗬 𝗠𝗔𝗥𝗞𝗘𝗧𝗣𝗟𝗔𝗖𝗘 𝗣𝗥𝗢𝗝𝗘𝗖𝗧
+Overview:
+This project aims to build a fully functional and scalable online marketplace where users can browse, buy, and sell furniture and crockery decoration items effortlessly. On Day 1, we are laying the foundation for the project, ensuring a solid structure that will support future enhancements.
+
+Features:
+✅ Scalable Modular Architecture – Designed to accommodate future updates smoothly.
+✅ User-friendly Design – Ensuring a seamless browsing and shopping experience.
+✅ Basic Frontend & Backend Setup – Establishing the core functionality of the marketplace.
+✅ Placeholder Sections – Reserved for future features like user authentication and payment gateway integration.
+
+Tech Stack:
+🖥 Frontend: Next.js, React
+🛠 Backend: Node.js, Express.js, Sanity
+💾 Database: MongoDB, Firebase
+🛠 Tools: TypeScript, Git, VS Code
+
+Day 1 Objectives:
+✅ Set up the project repository
+✅ Define folder structure (e.g., components, pages, API, styles)
+✅ Initialize package manager and install dependencies
+✅ Create a basic landing page layout
+
+Installation (Local Setup):
+🚀 To run the project locally:
+
+1️⃣ Clone the repository:
+
+bash
+Copy
+Edit
+git clone <https://github.com/uzmahmed26/Q2-Marketplace-Builder-Hackathon-2025-.git>
+2️⃣ Navigate to the project directory:
+
+bash
+Copy
+Edit
+cd furniture-crockery-marketplace
+3️⃣ Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+4️⃣ Start the development server:
+
+bash
+Copy
+Edit
+npm run dev

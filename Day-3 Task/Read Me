@@ -1,0 +1,60 @@
+𝗗𝗔𝗬 𝟯: 𝗔𝗣𝗜 𝗜𝗡𝗧𝗘𝗚𝗥𝗔𝗧𝗜𝗢𝗡 & 𝗗𝗔𝗧𝗔 𝗠𝗜𝗚𝗥𝗔𝗧𝗜𝗢𝗡
+Overview
+On Day 3, the focus is on API integration and data migration to ensure seamless communication between the frontend and backend. Additionally,
+data from existing systems will be transferred to the Furniture & Crockery Marketplace securely and efficiently.
+
+Objectives
+✅ Integrate APIs for smooth data exchange between frontend and backend.
+✅ Migrate existing data without errors to the new platform.
+✅ Enhance security and performance for scalable marketplace operations.
+
+API Integration
+Backend Setup
+Defined API endpoints for key functionalities:
+
+🔐 User Authentication: Login, signup, password reset.
+🏺 Product Management: Add, update, delete, and list products.
+🛒 Order Processing: Create, update, and retrieve orders.
+Implemented these endpoints using Next.js API Routes.
+✅ Tested API endpoints using Postman or Thunder Client for reliability.
+
+Frontend Integration
+Connected frontend components to the backend using Axios.
+Handled API responses effectively:
+
+🔄 Show loading states while fetching data.
+⚠️ Display error messages for failed requests.
+📡 Update UI dynamically based on API responses.
+Security Enhancements
+🔑 Implemented JWT-based authentication for secure user login.
+🔒 Used HTTPS for encrypted communication.
+
+Data Migration
+Planning the Migration
+🗂 Listed all data entities to be migrated:
+
+Users (Customer accounts)
+Products (Furniture & crockery inventory)
+Orders (Purchase history)
+📝 Mapped old database fields to the new schema for smooth transition.
+
+Data Extraction
+📥 Exported data from the previous database in CSV or JSON format.
+🔧 Used database-specific tools for extraction.
+
+Data Transformation
+🧹 Cleaned and formatted data to match the new database structure.
+❗ Handled missing or duplicate records.
+
+Data Loading
+📤 Imported processed data into the new database (MongoDB/Firebase).
+✅ Ran validation tests to confirm data integrity.
+
+Notes
+⚠ Error Handling: Implemented logs to track errors during API calls and migration.
+📊 Testing: Verified all API endpoints and checked data consistency post-migration.
+🔐 Security: Used encryption for data transfer and secured passwords.
+
+Conclusion
+Integrating APIs ensures smooth interaction between the user interface and backend, while data migration guarantees a solid start for the marketplace.
+These are critical steps in building a scalable and user-friendly platform.
