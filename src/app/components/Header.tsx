@@ -33,7 +33,7 @@ const Header = () => {
     setIsSearchOpen(!isSearchOpen);
   };
 
-console.log(inputValue);
+// console.log(inputValue);
 
 
   return (
@@ -177,6 +177,7 @@ console.log(inputValue);
                         >
                           Cutlery
                         </Link>
+                    
 
                         <div className="md:hidden">
                           {!isSignedIn ? <SignInButtonComponent /> : null}

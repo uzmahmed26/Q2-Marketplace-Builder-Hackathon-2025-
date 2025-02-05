@@ -19,7 +19,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "E-Commerce",
-  description: "E Commerce Website By Muhammad Shahroz",
+  description: "E Commerce Website By Uzma Ahmed",
 };
 
 export default function RootLayout({

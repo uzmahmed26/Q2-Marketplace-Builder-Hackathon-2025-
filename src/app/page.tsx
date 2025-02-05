@@ -11,20 +11,16 @@ const page = () => {
   return (
 
     <main>
-
-
-
       <WidthWrapper>
         <Hero />
         <SectionOne />
         <NewCeramic Heading="New ceramics" />
         <PopularProduct />
-      </WidthWrapper>
-      <SignUp />
-      <WidthWrapper>
+        </WidthWrapper>
+        <SignUp />
+        <WidthWrapper>
         <Studio />
-      </WidthWrapper>
-
+        </WidthWrapper>
     </main>
   );
 };

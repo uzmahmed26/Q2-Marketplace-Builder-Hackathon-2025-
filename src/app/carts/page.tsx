@@ -5,6 +5,8 @@ import { useAtom } from "jotai";
 import CartComponent from "../components/CartComponent";
 import { addToCart } from "../addToCart";
 import { MdLocalGroceryStore } from "react-icons/md";
+import CheckoutButton from "../components/CheckOutButton";
+
 
 
 const CartPage = () => {
@@ -45,7 +47,7 @@ const CartPage = () => {
     <th className="py-4 px-2 sm:px-4 text-left">Product</th>
     <th className="py-4 px-2 sm:px-4 text-center">Price</th>
     <th className="py-4 px-2 sm:px-4 text-center">Quantity</th>
-    <th className="py-4 px-2 sm:px-4 text-center">Delete</th>
+    <th className="py-4 px-2 sm:px-4 text-center">Remove</th>
   </tr>
 </thead>
 
@@ -87,13 +89,25 @@ const CartPage = () => {
             </div>
           </div>
 
-<Link href="/checkOutPage">
-          <button disabled={addCart.length === 0}  className="bg-[#F9F9F9] text-[#2A254B] disabled:bg-gray-200 disabled:text-black hover:bg-[#2A254B] hover:text-white w-full mt-4 py-2 rounded-md">
-            Go to checkout
-          </button>
-          </Link>
+          <button
+  disabled={addCart.length === 0}
+  onClick={(e) => {
+    if (addCart.length === 0) {
+      e.preventDefault(); // Prevent link action if cart is empty
+    }
+  }}
+  className={`text-md w-full rounded-sm mt-4 px-4 py-2 font-bold ${
+    addCart.length === 0
+      ? "bg-gray-400 text-gray-700"
+      : "bg-blue-500 text-white hover:bg-blue-900"
+  }`}
+>
+  <Link href={addCart.length > 0 ? "/billing-summary" : "#"}>Place Order</Link>
+</button>
+
         </div>
       </div>
+ 
     </div>
   );
 };

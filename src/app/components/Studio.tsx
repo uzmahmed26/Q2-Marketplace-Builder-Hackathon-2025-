@@ -3,6 +3,18 @@ import Image from "next/image";
 const Studio = () => {
   return (
     <main className="w-full mx-auto flex flex-col xl:flex-row items-center xl:h-[603px] h-auto pt-10 xl:py-0">
+
+      {/* Image Div */}
+      <div className="xl:w-1/2 w-full xl:px-0">
+        <Image
+          src="/studio/studio.png"
+          alt="studio"
+          height={603}
+          width={720}
+          className="w-full h-auto object-cover"
+        />
+      </div>
+
       <div className="xl:w-1/2 w-full flex flex-col justify-center gap-y-12 px-6 xl:px-12 mb-0 xl:mb-0">
         <div className="w-full max-w-[536px] flex flex-col gap-6">
           <p className="text-[20px] md:text-[24px] leading-8 clashDisplay">
@@ -24,16 +36,6 @@ const Studio = () => {
         </button>
       </div>
 
-      {/* Image Div */}
-      <div className="xl:w-1/2 w-full xl:px-0">
-        <Image
-          src="/studio/studio.png"
-          alt="studio"
-          height={603}
-          width={720}
-          className="w-full h-auto object-cover"
-        />
-      </div>
     </main>
   );
 };

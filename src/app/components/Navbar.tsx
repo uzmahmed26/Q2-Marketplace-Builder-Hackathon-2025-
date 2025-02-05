@@ -7,16 +7,7 @@ import { useEffect } from "react";
 const Navbar = () => {
   const { user } = useUser();
 
-  useEffect(() => {
-    if (user) {
-      console.log("User Object:", user);
-      console.log("User Email:", user?.emailAddresses?.[0]?.emailAddress);
-    } else {
-      console.log("User is undefined or not signed in.");
-    }
-  }, [user]);
 
-  // User's email for condition
   const userEmail = user?.emailAddresses?.[0]?.emailAddress;
 
   return (
@@ -69,14 +60,6 @@ const Navbar = () => {
       >
         Cutlery
       </Link>
-      {userEmail ===  process.env.NEXT_PUBLIC_EMAIL_ADDRESS && (
-        <Link
-          href="/admin"
-          className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1"
-        >
-          Admin Panel
-        </Link>
-      )}
     </nav>
   );
 };
