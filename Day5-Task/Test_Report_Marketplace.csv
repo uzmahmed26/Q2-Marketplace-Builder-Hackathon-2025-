@@ -1,0 +1,14 @@
+Test Report Of My MarketPlace,,,,,,,
+TEST ID,TEST CASE DESCRIPTION,TEST STEPS,Expected Result,Actual Result,Status,Severity,Remarks
+TC001,Test navigation bar links,Click each link in the navigation bar >Verify page loads,Correct Rendering,All links working correctly,Passed,Medium,Navigation verified
+TC002,Test valid login,Enter valid credentials >click Login,User logged in,Not Login successful,Failed,No,Not Verified
+TC003,Test product listing,Fetch all products from Sanity API,Products displayed correctly,Verified successfully,Passed,High,No issues found
+TC004,Test dynamic product detail,Click on a product > Verify details,Correct product details shown,Details loaded correctly,Passed,Medium,Works as expected
+TC005,Test search functionality,Enter query > check results,Relevant results shown,Search working not working,Failed,No,Not Verified
+TC006,Test cart functionality,Add/remove items >verify cart updates,Cart updates correctly,Works as expected,Passed,High,Cart Verified
+TC007,Test cart functionality,image not showing,Cart not updated,no imgs showing,Failed,No,Not verified
+TC008,Test pagination,Navigate through pages of products,Correct products load per page,Pagination works,Passed,High,Pagination Verified
+TC009,Test checkout functionality,Go to checkout > Fill details > Place order,Order placed successfully,Checkout process smooth,Passed,High,Checkout Verified
+TC010,Fetching Data with query,Execute GROQ query to fetch data from source,Data fetched correctly,Data fetched successfully,Passed,High,Query Verified
+TC011,Test sanity output,Run GROQ query to fetch data,Correct data returned,Data matches expectations,Passed,High,Sanity Output Verified
+TC012,Test responsiveness,Resize browser >check layout,Layout adjusts correctly,Works as expected,Passed,High,Responsive Verified
